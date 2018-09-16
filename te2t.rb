@@ -63,6 +63,5 @@ Zip::File.open(filename) do |zip_file|
   end
 end
 
-
 puts "Skipped #{total_skipped} snippet(s): invalid abbreviation"
 puts "Successfully imported #{total_created} snippets"
